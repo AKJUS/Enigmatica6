@@ -274,8 +274,8 @@ function Update-FileLinkInServerFiles {
         $idPart1 = Remove-LeadingZero -text $idPart1
         $idPart2 = $clientFileIdString.Substring(4, $clientFileIdString.length - 4)
         $idPart2 = Remove-LeadingZero -text $idPart2
-        $curseForgeCdnUrl = "https://media.forgecdn.net/files/$idPart1/$idPart2/$CLIENT_ZIP_NAME.zip"
-        $content = (Get-Content -Path $SERVER_SETUP_CONFIG_PATH) -replace "https://media.forgecdn.net/files/\d+/\d+/.*.zip", $curseForgeCdnUrl 
+        $curseForgeCdnUrl = "https://edge.forgecdn.net/files/$idPart1/$idPart2/$CLIENT_ZIP_NAME.zip"
+        $content = (Get-Content -Path $SERVER_SETUP_CONFIG_PATH) -replace "https://edge.forgecdn.net/files/\d+/\d+/.*.zip", $curseForgeCdnUrl 
         [System.IO.File]::WriteAllLines(($SERVER_SETUP_CONFIG_PATH | Resolve-Path), $content)
 
         if ($ENABLE_SERVER_FILE_MODULE) {
