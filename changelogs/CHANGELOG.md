@@ -1,3 +1,17 @@
+### Enigmatica 6 & Enigmatica 6: Expert v1.12.0
+
+_Using Forge-1.16.5-36.2.39_ | _[Mod Updates](https://github.com/EnigmaticaModpacks/Enigmatica6/blob/master/changelogs/changelog_mods_1.12.0.md)_ | _[Modlist](https://github.com/EnigmaticaModpacks/Enigmatica6/blob/master/changelogs/modlist_1.12.0.md)_
+
+**New Mods**
+
+-   [Crash Assistant](https://www.curseforge.com/minecraft/mc-mods/crash-assistant) (by [KostromDan](https://www.curseforge.com/members/KostromDan/projects))
+
+**Bug fixes**
+
+-   Various Tetra Items do not have data [\#5496](https://github.com/EnigmaticaModpacks/Enigmatica6/issues/5496)
+
+---
+
 ### Enigmatica 6 & Enigmatica 6: Expert v1.11.0
 
 _Using Forge-1.16.5-36.2.39_ | _[Mod Updates](https://github.com/EnigmaticaModpacks/Enigmatica6/blob/master/changelogs/changelog_mods_1.11.0.md)_ | _[Modlist](https://github.com/EnigmaticaModpacks/Enigmatica6/blob/master/changelogs/modlist_1.11.0.md)_
