@@ -225,3 +225,4 @@ config/betterendforge/client.json
 config/Mekanism/tiers.toml
 pregen/supporters.json
 local/crash_assistant
+config/crash_assistant/lang
